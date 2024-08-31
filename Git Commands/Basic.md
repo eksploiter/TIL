@@ -1,6 +1,6 @@
 ## Git Commands
 
-### Basic Snapshotting
+### Basic
 <br>
 
 ```bash
