@@ -29,6 +29,7 @@ PhoneAuthProvider.getInstance().verifyPhoneNumber(
     this,                // Activity (for callback binding)
     verificationCallbacks) // OnVerificationStateChangedCallbacks
 ```
+<br>
 
 - 핀번호 저장 (SharedPreferences 예시)
 ```
@@ -37,6 +38,7 @@ val editor = sharedPreferences.edit()
 editor.putString("PIN_CODE", userPin) // 핀번호 저장
 editor.apply()
 ```
+<br>
 
 - 모드에 따른 화면 전환 (모드 선택 후)
 ```
